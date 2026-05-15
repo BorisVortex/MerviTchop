@@ -12,6 +12,15 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+
+    </style>
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">#D3D3D3</item>
+        <item name="colorControlActivated">#FFC922</item>
+    </style>
+
+    <style name="AlertDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
     </style>
     <style name="Theme.MerviTchop.NoActionBar">
         <item name="windowActionBar">false</item>
